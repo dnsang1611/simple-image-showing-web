@@ -60,4 +60,4 @@ def get_image_info(*, request: Request, img_path: str, batch_id: int):
     }
     print(batch_id)
     return templates.TemplateResponse('single_img.html', context)
-# trying to cause conflict, 222
+# trying to cause conflict, 111
